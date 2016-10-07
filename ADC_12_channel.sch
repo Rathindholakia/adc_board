@@ -21709,6 +21709,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="U12" library="SparkFun-PowerIC" deviceset="V_REG_317" device="SMD"/>
 <part name="CONVST" library="wirepad" deviceset="3,17/1,3" device=""/>
 <part name="R20" library="resistor" deviceset="R-EU_" device="M1206" value="0"/>
+<part name="R71" library="resistor" deviceset="R-EU_" device="M1206" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -22026,7 +22027,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instance part="GND5" gate="1" x="20.32" y="-121.92" rot="R270"/>
 <instance part="AGND1" gate="GND" x="20.32" y="2.54" rot="R270"/>
 <instance part="AGND2" gate="GND" x="17.78" y="27.94" rot="R270"/>
-<instance part="GND6" gate="1" x="10.16" y="53.34" rot="R270"/>
+<instance part="GND6" gate="1" x="5.08" y="53.34" rot="R270"/>
 <instance part="SUPPLY3" gate="GND" x="10.16" y="58.42" rot="R270"/>
 <instance part="U$1" gate="G$1" x="617.22" y="274.32"/>
 <instance part="U11" gate="G$1" x="617.22" y="243.84" rot="R180"/>
@@ -22042,6 +22043,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instance part="U12" gate="G$1" x="688.34" y="281.94"/>
 <instance part="CONVST" gate="1" x="-12.7" y="60.96"/>
 <instance part="R20" gate="G$1" x="-2.54" y="60.96" rot="R180"/>
+<instance part="R71" gate="G$1" x="15.24" y="53.34" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -23716,11 +23718,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="17.78" y1="0" x2="17.78" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="~INT/EXT_CLK"/>
-<wire x1="25.4" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="-259.08" y1="101.6" x2="-259.08" y2="104.14" width="0.1524" layer="91"/>
@@ -23799,6 +23796,11 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="C34" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <wire x1="-269.24" y1="-22.86" x2="-269.24" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R71" gate="G$1" pin="2"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="10.16" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -24109,6 +24111,13 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-7.62" y="60.96"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="R71" gate="G$1" pin="1"/>
+<pinref part="U1" gate="A" pin="~INT/EXT_CLK"/>
+<wire x1="20.32" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
