@@ -2,26 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/simcentre9/eagle/ADC_Board/ADC_12_channel.brd
 
-Start at      : 16:10:35 (01/10/16)
-End at        : 16:13:58 (01/10/16)
-Elapsed time  : 00:00:09
+Start at      : 15:42:02 (24/10/16)
+End at        : 15:47:27 (24/10/16)
+Elapsed time  : 00:05:19
 
-Signals       :   119   RoutingGrid: 9 mil  Layers: 2
-Connections   :   370   predefined:  0 ( 0 Vias )
+Signals       :   117   RoutingGrid: 13 mil  Layers: 2
+Connections   :   360   predefined:  137 ( 31 Vias )
 
-Router memory :   21948696
+Router memory :   3553144
 
-Job has been interrupted!
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8
 
-Passname          : TopRouter     Route
+Time per pass     :  00:00:20  00:04:14  00:00:07  00:00:05  00:00:05  00:00:06  00:00:06  00:00:05  00:00:06  00:00:05
+Number of Ripups  :         0         1         0         0         0         0         0         0         0         0
+max. Level        :         0         9         0         0         0         0         0         0         0         0
+max. Total        :         0         9         0         0         0         0         0         0         0         0
 
-Time per pass     :  00:00:09  00:00:00
-Number of Ripups  :         0         2
-max. Level        :         0         2
-max. Total        :         0         4
+Routed            :        71       207       203       204       204       204       204       204       204       204
+Vias              :         0        86       106        97        93        93        93        93        93        93
+Resolution        :    57.8 %    95.6 %    94.4 %    94.7 %    94.7 %    94.7 %    94.7 %    94.7 %    94.7 %    94.7 %
 
-Routed            :        11       282
-Vias              :         0       148
-Resolution        :     3.0 %    76.2 %
-
-Final             : 76.2% finished
+Final             : 94.7% finished
