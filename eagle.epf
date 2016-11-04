@@ -8,6 +8,7 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="/home/simcentre9/eagle-7.2.0/lbr/AD7864AS.lbr"
+UsedLibrary="/home/simcentre9/eagle-7.2.0/lbr/ST Microelctronics_By_element14_Batch_1.lbr"
 UsedLibrary="/home/simcentre9/eagle-7.2.0/lbr/op-amp.lbr"
 UsedLibrary="/home/simcentre9/eagle-7.4.0/lbr/SparkFun-Eagle-Libraries-master/GeekAmmo.lbr"
 UsedLibrary="/home/simcentre9/eagle-7.4.0/lbr/SparkFun-Eagle-Libraries-master/LilyPad-Wearables.lbr"
@@ -372,13 +373,14 @@ UsedLibrary="/home/simcentre9/eagle-7.4.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/home/simcentre9/eagle-7.4.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/home/simcentre9/eagle-7.4.0/lbr/zetex.lbr"
 UsedLibrary="/home/simcentre9/eagle-7.4.0/lbr/zilog.lbr"
+UsedLibrary="/home/simcentre9/eagle-7.2.0/lbr/rathin_Vreg_D2pack.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="381 213 1660 928"
+Loc="86 52 1365 767"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="1366 768"
 Window="Win_1"
