@@ -21339,18 +21339,16 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="R4" library="resistor" deviceset="R-EU_" device="M1206" value="10k"/>
 <part name="DVDD" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD5" library="supply1" deviceset="VDD" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="0.1uf"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="0.1uf"/>
 <part name="GND2" library="supply1" deviceset="GND" device="" value="DGND"/>
 <part name="AVDD" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206K" value="47u"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603K" value="47u"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206K" value="47u"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Retired" deviceset="JUMPER-2" device="PTH"/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="AVDD1" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
-<part name="JP2" library="SparkFun-Retired" deviceset="JUMPER-2" device="PTH"/>
-<part name="JP3" library="SparkFun-Retired" deviceset="JUMPER-2" device="PTH"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="M1206" value="10k"/>
 <part name="DVDD1" library="supply1" deviceset="VDD" device=""/>
@@ -21362,15 +21360,14 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="R9" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="DVDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603K"/>
 <part name="GND4" library="supply1" deviceset="GND" device="" value="DGND"/>
 <part name="AVDD2" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206K" value="47u"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="47u"/>
-<part name="JP5" library="SparkFun-Retired" deviceset="JUMPER-2" device="PTH"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206K" value="47u"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="M1206" value="10k"/>
 <part name="DVDD3" library="supply1" deviceset="VDD" device=""/>
 <part name="CLK_IN" library="wirepad" deviceset="3,17/1,3" device=""/>
 <part name="U3" library="op-amp" deviceset="TL082" device="D"/>
@@ -21397,15 +21394,15 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="R13" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="R14" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="R31" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R36" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R37" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="U4" library="op-amp" deviceset="TL082" device="D"/>
@@ -21414,117 +21411,117 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="R15" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="R16" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R25" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R26" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C30" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C30" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="U5" library="op-amp" deviceset="TL082" device="D"/>
 <part name="K4" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" deviceset="691101710002" device=""/>
-<part name="R27" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R28" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R29" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R30" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C31" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R38" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C33" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R39" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R28" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R29" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R30" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C31" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R38" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C33" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R39" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="C34" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C35" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C34" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C35" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="U7" library="op-amp" deviceset="TL082" device="D"/>
 <part name="K5" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" deviceset="691101710002" device=""/>
-<part name="R40" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R41" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R42" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R43" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C36" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R44" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C37" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C38" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R45" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
+<part name="R40" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R41" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R42" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R43" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C36" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R44" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C37" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C38" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R45" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
-<part name="C39" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C40" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C39" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C40" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="U6" library="op-amp" deviceset="TL082" device="D"/>
 <part name="K6" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" deviceset="691101710002" device=""/>
-<part name="R32" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R33" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R34" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R35" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R33" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R34" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R35" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R46" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C41" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R47" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C41" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R47" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
-<part name="C42" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C43" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C42" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C43" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="U8" library="op-amp" deviceset="TL082" device="D"/>
 <part name="K7" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" deviceset="691101710002" device=""/>
-<part name="R48" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R49" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R50" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R51" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C44" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="R48" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R49" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R50" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R51" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C44" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R52" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C46" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R53" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
+<part name="C45" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C46" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R53" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
-<part name="C47" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C48" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C47" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C48" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
 <part name="U9" library="op-amp" deviceset="TL082" device="D"/>
 <part name="K8" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" deviceset="691101710002" device=""/>
-<part name="R54" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R55" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R56" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R57" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C49" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="R54" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R55" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R56" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R57" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C49" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R58" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C50" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C51" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R59" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
+<part name="C50" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C51" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R59" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
-<part name="C52" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C53" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C52" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C53" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
 <part name="U10" library="op-amp" deviceset="TL082" device="D"/>
 <part name="K9" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15d" deviceset="691101710002" device=""/>
-<part name="R60" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R61" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R62" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="R63" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C54" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R64" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
-<part name="C55" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C56" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="R65" library="resistor" deviceset="R-EU_" device="M0805" value="10M"/>
+<part name="R60" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R61" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R62" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="R63" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C54" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R64" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
+<part name="C55" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C56" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R65" library="resistor" deviceset="R-EU_" device="M1206" value="10M"/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
-<part name="C57" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C58" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C57" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C58" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
@@ -21538,8 +21535,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO-214AC"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="DO-214AC"/>
-<part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C59" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="R66" library="resistor" deviceset="R-EU_" device="M1206" value="500"/>
 <part name="R67" library="resistor" deviceset="R-EU_" device="M1206" value="500"/>
 <part name="R68" library="resistor" deviceset="R-EU_" device="M1206" value="500"/>
@@ -21553,6 +21550,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="R73" library="resistor" deviceset="R-EU_" device="M1206" value="0"/>
 <part name="IC1" library="rathin_Vreg_D2pack" deviceset="LM317?*" device="BD2T"/>
 <part name="IC2" library="v-reg" deviceset="LM317?*" device="BD2T"/>
+<part name="R74" library="resistor" deviceset="R-EU_" device="M1206" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -21562,10 +21560,10 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <text x="-53.34" y="114.3" size="1.778" layer="91">AVDD</text>
 <text x="-33.02" y="114.3" size="1.778" layer="91">AVDD</text>
 <text x="-50.8" y="132.08" size="1.778" layer="91">For shorting AVdd &amp; DVdd </text>
-<text x="-38.1" y="73.66" size="1.778" layer="91">For H/W seq Select</text>
-<text x="-35.56" y="48.26" size="1.778" layer="91">For S/W seq Select</text>
-<text x="-38.1" y="-101.6" size="1.778" layer="91">For H/W seq Select</text>
-<text x="-35.56" y="-127" size="1.778" layer="91">For S/W seq Select</text>
+<text x="-38.1" y="71.12" size="1.778" layer="91">For H/W seq Select</text>
+<text x="-53.34" y="-132.08" size="1.778" layer="91">DO NOT connect!</text>
+<text x="-48.26" y="43.18" size="1.778" layer="91">DO NOT connect!</text>
+<text x="-38.1" y="-106.68" size="1.778" layer="91">For H/W seq Select</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="50.8" y="45.72"/>
@@ -21666,8 +21664,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="JP1" gate="A" x="-40.64" y="121.92"/>
 <instance part="VDD1" gate="G$1" x="-30.48" y="119.38" rot="R270"/>
 <instance part="AVDD1" gate="VDD" x="-48.26" y="119.38" rot="R90"/>
-<instance part="JP2" gate="A" x="-35.56" y="66.04"/>
-<instance part="JP3" gate="A" x="-33.02" y="55.88" rot="R180"/>
 <instance part="SUPPLY2" gate="GND" x="-43.18" y="68.58" rot="R180"/>
 <instance part="R5" gate="G$1" x="-43.18" y="50.8" rot="R180"/>
 <instance part="DVDD1" gate="G$1" x="-53.34" y="50.8" rot="R90"/>
@@ -21685,7 +21681,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="AVDD2" gate="VDD" x="-5.08" y="-81.28"/>
 <instance part="C7" gate="G$1" x="-10.16" y="-91.44" rot="R90"/>
 <instance part="C8" gate="G$1" x="-10.16" y="-83.82" rot="R90"/>
-<instance part="JP5" gate="A" x="-33.02" y="-119.38" rot="R180"/>
 <instance part="SUPPLY4" gate="GND" x="-43.18" y="-106.68" rot="R180"/>
 <instance part="R10" gate="G$1" x="-43.18" y="-124.46" rot="R180"/>
 <instance part="DVDD3" gate="G$1" x="-53.34" y="-124.46" rot="R90"/>
@@ -21886,6 +21881,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="R73" gate="G$1" x="650.24" y="261.62" rot="R90"/>
 <instance part="IC1" gate="G$1" x="617.22" y="243.84" rot="R180"/>
 <instance part="IC2" gate="G$1" x="617.22" y="274.32"/>
+<instance part="R74" gate="G$1" x="-33.02" y="63.5" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -22159,22 +22155,17 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="22.86" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="~H/S_SEL"/>
-<wire x1="25.4" y1="63.5" x2="-33.02" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="-33.02" y1="58.42" x2="-33.02" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-33.02" y="63.5"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-38.1" y1="50.8" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="-38.1" y1="58.42" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="58.42" x2="-25.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R74" gate="G$1" pin="1"/>
+<pinref part="U1" gate="A" pin="~H/S_SEL"/>
+<wire x1="-27.94" y1="63.5" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="58.42" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-25.4" y="63.5"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -22210,24 +22201,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="U2" gate="A" pin="VREF"/>
 <wire x1="22.86" y1="-116.84" x2="25.4" y2="-116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="~H/S_SEL"/>
-<wire x1="25.4" y1="-111.76" x2="-33.02" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="A" pin="1"/>
-<wire x1="-33.02" y1="-116.84" x2="-33.02" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="R72" gate="G$1" pin="1"/>
-<junction x="-33.02" y="-111.76"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-38.1" y1="-124.46" x2="-38.1" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="A" pin="2"/>
-<wire x1="-38.1" y1="-116.84" x2="-35.56" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -22571,7 +22544,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="736.6" y1="271.78" x2="736.6" y2="269.24" width="0.1524" layer="91"/>
-<label x="739.14" y="269.24" size="1.778" layer="95" xref="yes"/>
 <wire x1="736.6" y1="269.24" x2="736.6" y2="266.7" width="0.1524" layer="91"/>
 <junction x="736.6" y="269.24"/>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -23543,8 +23515,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="-43.18" y1="66.04" x2="-43.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="-43.18" y1="63.5" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R74" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="63.5" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="DGND"/>
@@ -23964,6 +23936,21 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="678.18" y1="281.94" x2="650.24" y2="281.94" width="0.1524" layer="91"/>
 <junction x="678.18" y="281.94"/>
 <junction x="650.24" y="281.94"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="-124.46" x2="-38.1" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-129.54" x2="-33.02" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-129.54" x2="-33.02" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-116.84" x2="-27.94" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="~H/S_SEL"/>
+<wire x1="25.4" y1="-111.76" x2="-27.94" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="R72" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="-111.76" x2="-33.02" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-116.84" x2="-27.94" y2="-111.76" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-111.76"/>
 </segment>
 </net>
 </nets>
