@@ -21463,6 +21463,7 @@ at 30/07/2012 15:32:30</description>
 <part name="Q1" library="ST Microelctronics_By_element14_Batch_1" deviceset="L78M12ABDT" device=""/>
 <part name="C23" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="1000uF/35V"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="R71" library="resistor" deviceset="R-EU_" device="M1206" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -21790,6 +21791,7 @@ at 30/07/2012 15:32:30</description>
 <instance part="Q1" gate="A" x="711.2" y="274.32"/>
 <instance part="C23" gate="G$1" x="680.72" y="271.78"/>
 <instance part="C27" gate="G$1" x="736.6" y="266.7"/>
+<instance part="R71" gate="G$1" x="-243.84" y="177.8" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -23536,6 +23538,11 @@ at 30/07/2012 15:32:30</description>
 <wire x1="680.72" y1="266.7" x2="680.72" y2="256.54" width="0.1524" layer="91"/>
 <junction x="680.72" y="256.54"/>
 </segment>
+<segment>
+<pinref part="R71" gate="G$1" pin="1"/>
+<wire x1="-223.52" y1="177.8" x2="-238.76" y2="177.8" width="0.1524" layer="91"/>
+<label x="-226.06" y="177.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -23771,6 +23778,11 @@ at 30/07/2012 15:32:30</description>
 <wire x1="-233.68" y1="-33.02" x2="-238.76" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-238.76" y1="-33.02" x2="-238.76" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R71" gate="G$1" pin="2"/>
+<wire x1="-248.92" y1="177.8" x2="-261.62" y2="177.8" width="0.1524" layer="91"/>
+<label x="-261.62" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$90" class="0">
