@@ -21590,7 +21590,7 @@ at 30/07/2012 15:32:30</description>
 <instance part="SUPPLY4" gate="GND" x="-43.18" y="-106.68" rot="R180"/>
 <instance part="R10" gate="G$1" x="-43.18" y="-124.46" rot="R180"/>
 <instance part="DVDD3" gate="G$1" x="-53.34" y="-124.46" rot="R90"/>
-<instance part="CLK_IN" gate="1" x="-5.08" y="55.88"/>
+<instance part="CLK_IN" gate="1" x="-2.54" y="55.88"/>
 <instance part="U3" gate="A" x="-274.32" y="119.38"/>
 <instance part="U3" gate="B" x="-223.52" y="121.92"/>
 <instance part="U3" gate="P" x="-274.32" y="119.38"/>
@@ -21769,7 +21769,7 @@ at 30/07/2012 15:32:30</description>
 <instance part="AGND1" gate="GND" x="20.32" y="2.54" rot="R270"/>
 <instance part="AGND2" gate="GND" x="17.78" y="27.94" rot="R270"/>
 <instance part="GND6" gate="1" x="5.08" y="53.34" rot="R270"/>
-<instance part="SUPPLY3" gate="GND" x="10.16" y="58.42" rot="R270"/>
+<instance part="SUPPLY3" gate="GND" x="7.62" y="58.42" rot="R270"/>
 <instance part="D1" gate="G$1" x="589.28" y="274.32"/>
 <instance part="D2" gate="G$1" x="589.28" y="243.84"/>
 <instance part="C59" gate="G$1" x="642.62" y="266.7"/>
@@ -21780,8 +21780,8 @@ at 30/07/2012 15:32:30</description>
 <instance part="R69" gate="G$1" x="289.56" y="58.42"/>
 <instance part="R70" gate="G$1" x="236.22" y="-12.7" rot="R90"/>
 <instance part="U12" gate="G$1" x="754.38" y="274.32"/>
-<instance part="CONVST1" gate="1" x="0" y="58.42" rot="R90"/>
-<instance part="R20" gate="G$1" x="-7.62" y="60.96" rot="R180"/>
+<instance part="CONVST1" gate="1" x="-7.62" y="58.42" rot="R90"/>
+<instance part="R20" gate="G$1" x="-17.78" y="60.96" rot="R180"/>
 <instance part="R72" gate="G$1" x="-38.1" y="-111.76" rot="R180"/>
 <instance part="IC1" gate="G$1" x="617.22" y="243.84" rot="R180"/>
 <instance part="IC2" gate="G$1" x="617.22" y="274.32"/>
@@ -21798,13 +21798,13 @@ at 30/07/2012 15:32:30</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="DB0"/>
-<wire x1="76.2" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-12" pin="1"/>
 <pinref part="U2" gate="A" pin="DB0"/>
 <wire x1="81.28" y1="83.82" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-91.44" x2="81.28" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-91.44" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="DB0"/>
+<wire x1="76.2" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
 <junction x="81.28" y="83.82"/>
 </segment>
 </net>
@@ -22059,6 +22059,16 @@ at 30/07/2012 15:32:30</description>
 <junction x="20.32" y="-88.9"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="~STBY"/>
+<label x="10.16" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="25.4" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="~STBY"/>
+<wire x1="25.4" y1="-106.68" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
+<label x="10.16" y="-106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$16" class="0">
 <segment>
@@ -22145,7 +22155,7 @@ at 30/07/2012 15:32:30</description>
 <segment>
 <pinref part="CLK_IN" gate="1" pin="P"/>
 <pinref part="U1" gate="A" pin="CLKIN"/>
-<wire x1="-2.54" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="0" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_12+" class="0">
@@ -22415,10 +22425,8 @@ at 30/07/2012 15:32:30</description>
 <label x="-203.2" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-215.9" y1="121.92" x2="-218.44" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="121.92" x2="-210.82" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U3" gate="B" pin="OUT"/>
-<junction x="-215.9" y="121.92"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="-210.82" y1="121.92" x2="-203.2" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="109.22" x2="-215.9" y2="109.22" width="0.1524" layer="91"/>
@@ -22429,6 +22437,7 @@ at 30/07/2012 15:32:30</description>
 <wire x1="-220.98" y1="104.14" x2="-215.9" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="104.14" x2="-215.9" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-215.9" y="109.22"/>
+<label x="-205.74" y="121.92" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="ADC2" class="0">
@@ -22652,19 +22661,14 @@ at 30/07/2012 15:32:30</description>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="-12.7" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="-15.24" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-22.86" y1="60.96" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
+<label x="-22.86" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R76" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="-114.3" x2="-22.86" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-114.3" x2="-22.86" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-22.86" y="-119.38" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<wire x1="309.88" y1="-53.34" x2="309.88" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -22683,12 +22687,6 @@ at 30/07/2012 15:32:30</description>
 <wire x1="251.46" y1="48.26" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-28" pin="1"/>
 <wire x1="251.46" y1="63.5" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$51" class="0">
-<segment>
-<wire x1="132.08" y1="-27.94" x2="129.54" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="-27.94" x2="129.54" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -23537,6 +23535,7 @@ at 30/07/2012 15:32:30</description>
 <pinref part="C23" gate="G$1" pin="-"/>
 <wire x1="680.72" y1="266.7" x2="680.72" y2="256.54" width="0.1524" layer="91"/>
 <junction x="680.72" y="256.54"/>
+<label x="716.28" y="254" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R71" gate="G$1" pin="1"/>
@@ -23640,7 +23639,7 @@ at 30/07/2012 15:32:30</description>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="58.42" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -23869,10 +23868,10 @@ at 30/07/2012 15:32:30</description>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="CONVST1" gate="1" pin="P"/>
-<wire x1="-2.54" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="~CONVST"/>
-<wire x1="0" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<junction x="0" y="60.96"/>
+<wire x1="-7.62" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-7.62" y="60.96"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -23896,6 +23895,62 @@ at 30/07/2012 15:32:30</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,243.84,-20.32,X1-1,1,,,,"/>
+<approved hash="101,1,302.26,93.98,X1-4,1,,,,"/>
+<approved hash="101,1,238.76,-20.32,X1-5,1,,,,"/>
+<approved hash="101,1,233.68,-20.32,X1-9,1,,,,"/>
+<approved hash="101,1,302.26,86.36,X1-10,1,,,,"/>
+<approved hash="101,1,220.98,-20.32,X1-19,1,,,,"/>
+<approved hash="101,1,302.26,73.66,X1-20,1,,,,"/>
+<approved hash="101,1,213.36,-20.32,X1-25,1,,,,"/>
+<approved hash="101,1,302.26,66.04,X1-26,1,,,,"/>
+<approved hash="101,1,208.28,-20.32,X1-29,1,,,,"/>
+<approved hash="101,1,302.26,60.96,X1-30,1,,,,"/>
+<approved hash="101,1,205.74,-20.32,X1-31,1,,,,"/>
+<approved hash="101,1,203.2,-20.32,X1-33,1,,,,"/>
+<approved hash="101,1,200.66,-20.32,X1-35,1,,,,"/>
+<approved hash="101,1,302.26,53.34,X1-36,1,,,,"/>
+<approved hash="101,1,198.12,-20.32,X1-37,1,,,,"/>
+<approved hash="101,1,302.26,50.8,X1-38,1,,,,"/>
+<approved hash="101,1,195.58,-20.32,X1-39,1,,,,"/>
+<approved hash="101,1,302.26,48.26,X1-40,1,,,,"/>
+<approved hash="101,1,187.96,-20.32,X1-41,1,,,,"/>
+<approved hash="101,1,302.26,40.64,X1-42,1,,,,"/>
+<approved hash="101,1,185.42,-20.32,X1-43,1,,,,"/>
+<approved hash="101,1,182.88,-20.32,X1-45,1,,,,"/>
+<approved hash="101,1,180.34,-20.32,X1-47,1,,,,"/>
+<approved hash="101,1,302.26,33.02,X1-48,1,,,,"/>
+<approved hash="101,1,302.26,30.48,X1-50,1,,,,"/>
+<approved hash="101,1,302.26,27.94,X1-52,1,,,,"/>
+<approved hash="101,1,172.72,-20.32,X1-53,1,,,,"/>
+<approved hash="101,1,302.26,25.4,X1-54,1,,,,"/>
+<approved hash="101,1,170.18,-20.32,X1-55,1,,,,"/>
+<approved hash="101,1,302.26,22.86,X1-56,1,,,,"/>
+<approved hash="101,1,167.64,-20.32,X1-57,1,,,,"/>
+<approved hash="101,1,165.1,-20.32,X1-59,1,,,,"/>
+<approved hash="101,1,302.26,17.78,X1-60,1,,,,"/>
+<approved hash="101,1,162.56,-20.32,X1-61,1,,,,"/>
+<approved hash="101,1,302.26,15.24,X1-62,1,,,,"/>
+<approved hash="101,1,160.02,-20.32,X1-63,1,,,,"/>
+<approved hash="101,1,302.26,12.7,X1-64,1,,,,"/>
+<approved hash="101,1,157.48,-20.32,X1-65,1,,,,"/>
+<approved hash="101,1,302.26,10.16,X1-66,1,,,,"/>
+<approved hash="101,1,154.94,-20.32,X1-67,1,,,,"/>
+<approved hash="101,1,302.26,7.62,X1-68,1,,,,"/>
+<approved hash="101,1,152.4,-20.32,X1-69,1,,,,"/>
+<approved hash="101,1,302.26,5.08,X1-70,1,,,,"/>
+<approved hash="101,1,149.86,-20.32,X1-71,1,,,,"/>
+<approved hash="101,1,302.26,2.54,X1-72,1,,,,"/>
+<approved hash="101,1,147.32,-20.32,X1-73,1,,,,"/>
+<approved hash="101,1,302.26,0,X1-74,1,,,,"/>
+<approved hash="101,1,144.78,-20.32,X1-75,1,,,,"/>
+<approved hash="101,1,302.26,-2.54,X1-76,1,,,,"/>
+<approved hash="101,1,142.24,-20.32,X1-77,1,,,,"/>
+<approved hash="101,1,302.26,-5.08,X1-78,1,,,,"/>
+<approved hash="101,1,139.7,-20.32,X1-79,1,,,,"/>
+<approved hash="101,1,302.26,-7.62,X1-80,1,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
